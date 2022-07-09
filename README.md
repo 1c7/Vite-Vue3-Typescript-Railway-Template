@@ -1,16 +1,29 @@
-# Vue 3 + TypeScript + Vite
+---
+title: Vite Vue (TS)
+description: Example Vite app that is configured with Vue 3 and Typescipt
+tags:
+  - vite
+  - vue
+  - typescript
+---
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vite + Vue 3 + Typescript Example
+This example utilises vite for static site generation
 
-## Recommended IDE Setup
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fvite-vue-typescript)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## ✨ Features
 
-## Type Support For `.vue` Imports in TS
+- Vite
+- Vue 3
+- TypeScript
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+## 💁‍♀️ How to use
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- Install dependencies `yarn`
+- Connect to your Railway project `railway link`
+- Start the development server `railway run yarn dev`
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## 📝 Notes
+
+The project is directly derived from the standard creation with some extra configuration to make sure it is quick and easy to get started on hosting your next site with railway. 
